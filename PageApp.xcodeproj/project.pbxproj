@@ -57,9 +57,9 @@
 		4AAFBF1E19C2CF3E00DA7113 /* PageAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageAppTests-Info.plist"; sourceTree = "<group>"; };
 		4AAFBF2019C2CF3E00DA7113 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AAFBF2219C2CF3E00DA7113 /* PageAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageAppTests.m; sourceTree = "<group>"; };
-		4AAFBF2C19C2D2B200DA7113 /* APPChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPChildViewController.h; sourceTree = "<group>"; };
-		4AAFBF2D19C2D2B200DA7113 /* APPChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPChildViewController.m; sourceTree = "<group>"; };
-		4AAFBF2E19C2D2B200DA7113 /* APPChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPChildViewController.xib; sourceTree = "<group>"; };
+		4AAFBF2C19C2D2B200DA7113 /* APPChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APPChildViewController.h; path = ../APPChildViewController.h; sourceTree = "<group>"; };
+		4AAFBF2D19C2D2B200DA7113 /* APPChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APPChildViewController.m; path = ../APPChildViewController.m; sourceTree = "<group>"; };
+		4AAFBF2E19C2D2B200DA7113 /* APPChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = APPChildViewController.xib; path = ../APPChildViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +89,6 @@
 		4AAFBEE819C2CF3D00DA7113 = {
 			isa = PBXGroup;
 			children = (
-				4AAFBF2C19C2D2B200DA7113 /* APPChildViewController.h */,
-				4AAFBF2D19C2D2B200DA7113 /* APPChildViewController.m */,
-				4AAFBF2E19C2D2B200DA7113 /* APPChildViewController.xib */,
 				4AAFBEFA19C2CF3D00DA7113 /* PageApp */,
 				4AAFBF1C19C2CF3E00DA7113 /* PageAppTests */,
 				4AAFBEF319C2CF3D00DA7113 /* Frameworks */,
@@ -122,6 +119,9 @@
 		4AAFBEFA19C2CF3D00DA7113 /* PageApp */ = {
 			isa = PBXGroup;
 			children = (
+				4AAFBF2C19C2D2B200DA7113 /* APPChildViewController.h */,
+				4AAFBF2D19C2D2B200DA7113 /* APPChildViewController.m */,
+				4AAFBF2E19C2D2B200DA7113 /* APPChildViewController.xib */,
 				4AAFBF0319C2CF3E00DA7113 /* PageAppDelegate.h */,
 				4AAFBF0419C2CF3E00DA7113 /* PageAppDelegate.m */,
 				4AAFBF0619C2CF3E00DA7113 /* Main_iPhone.storyboard */,

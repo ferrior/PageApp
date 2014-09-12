@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PageViewController : UIViewController
+@interface PageViewController : UIViewController <UIPageViewControllerDataSource>
+@property (strong, nonatomic) UIPageViewController *pageController;
+- (IBAction)First:(id)sender;
+- (IBAction)Second:(id)sender;
+- (IBAction)Third:(id)sender;
+- (IBAction)Four:(id)sender;
+
 
 @end

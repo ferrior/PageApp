@@ -22,6 +22,8 @@
 		4AAFBF1919C2CF3E00DA7113 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAFBEF819C2CF3D00DA7113 /* UIKit.framework */; };
 		4AAFBF2119C2CF3E00DA7113 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AAFBF1F19C2CF3E00DA7113 /* InfoPlist.strings */; };
 		4AAFBF2319C2CF3E00DA7113 /* PageAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFBF2219C2CF3E00DA7113 /* PageAppTests.m */; };
+		4AAFBF2F19C2D2B200DA7113 /* APPChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFBF2D19C2D2B200DA7113 /* APPChildViewController.m */; };
+		4AAFBF3019C2D2B200DA7113 /* APPChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AAFBF2E19C2D2B200DA7113 /* APPChildViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		4AAFBF1E19C2CF3E00DA7113 /* PageAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageAppTests-Info.plist"; sourceTree = "<group>"; };
 		4AAFBF2019C2CF3E00DA7113 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AAFBF2219C2CF3E00DA7113 /* PageAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageAppTests.m; sourceTree = "<group>"; };
+		4AAFBF2C19C2D2B200DA7113 /* APPChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPChildViewController.h; sourceTree = "<group>"; };
+		4AAFBF2D19C2D2B200DA7113 /* APPChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPChildViewController.m; sourceTree = "<group>"; };
+		4AAFBF2E19C2D2B200DA7113 /* APPChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPChildViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,9 @@
 		4AAFBEE819C2CF3D00DA7113 = {
 			isa = PBXGroup;
 			children = (
+				4AAFBF2C19C2D2B200DA7113 /* APPChildViewController.h */,
+				4AAFBF2D19C2D2B200DA7113 /* APPChildViewController.m */,
+				4AAFBF2E19C2D2B200DA7113 /* APPChildViewController.xib */,
 				4AAFBEFA19C2CF3D00DA7113 /* PageApp */,
 				4AAFBF1C19C2CF3E00DA7113 /* PageAppTests */,
 				4AAFBEF319C2CF3D00DA7113 /* Frameworks */,
@@ -234,6 +242,7 @@
 			files = (
 				4AAFBF0B19C2CF3E00DA7113 /* Main_iPad.storyboard in Resources */,
 				4AAFBF1019C2CF3E00DA7113 /* Images.xcassets in Resources */,
+				4AAFBF3019C2D2B200DA7113 /* APPChildViewController.xib in Resources */,
 				4AAFBF0819C2CF3E00DA7113 /* Main_iPhone.storyboard in Resources */,
 				4AAFBEFF19C2CF3E00DA7113 /* InfoPlist.strings in Resources */,
 			);
@@ -257,6 +266,7 @@
 				4AAFBF0119C2CF3E00DA7113 /* main.m in Sources */,
 				4AAFBF0519C2CF3E00DA7113 /* PageAppDelegate.m in Sources */,
 				4AAFBF0E19C2CF3E00DA7113 /* PageViewController.m in Sources */,
+				4AAFBF2F19C2D2B200DA7113 /* APPChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
